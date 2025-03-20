@@ -3,5 +3,6 @@
 alias shgen="echo '#!/bin/sh' > "
 
 shgen /bin/jakup
-echo "/workspace/fun-unfun-notation/jakup" >> /bin/jakup
-echo ". /workspace/fun-unfun-notation/runvenv" > /bin/runvenv
+chmod +x /bin/jakup
+echo "/workspaces/fun-unfun-notation/jakup" >> /bin/jakup
+echo ". /workspaces/fun-unfun-notation/runvenv" > /bin/runvenv
