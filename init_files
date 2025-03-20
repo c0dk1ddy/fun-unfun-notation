@@ -1,0 +1,8 @@
+#!/bin/sh
+
+alias shgen="echo '#!/bin/sh' > "
+
+shgen /bin/jakup
+shgen /bin/runvenv
+echo "/workspace/fun-unfun-notation/jakup" > /bin/jakup
+echo ". /workspace/fun-unfun-notation/runvenv" > /bin/runvenv
