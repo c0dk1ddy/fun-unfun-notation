@@ -5,6 +5,6 @@ chmod +x ./installmyenv
 chmod +x ./jakup
 
 ./installmyenv
-. runvenv
+. ./runvenv
 ./installmypkg
 exitvenv
