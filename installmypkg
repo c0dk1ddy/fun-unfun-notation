@@ -1,0 +1,4 @@
+#!/bin/sh
+
+pip download mydockeruse
+pip install mydockeruse
