@@ -1,1 +1,2 @@
 . ./.venv/bin/activate
+alias exitvenv = deactivate
